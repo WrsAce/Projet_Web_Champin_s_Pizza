@@ -1,0 +1,6 @@
+body{
+  background-image: url("../images/fond_pizza.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment:fixed;
+}
