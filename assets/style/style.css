@@ -4,3 +4,8 @@ body{
   background-position: bottom;
   background-attachment:fixed;
 }
+
+ul{
+  font-size: 2em;
+  list-style-type: none;
+}
