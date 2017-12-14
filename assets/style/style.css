@@ -8,4 +8,5 @@ body{
 ul{
   font-size: 2em;
   list-style-type: none;
+  color : rgb(250, 83, 65); /* use first line when we have link for color just the first elements and use color again for when the curseur of the mouse touch the link */
 }
