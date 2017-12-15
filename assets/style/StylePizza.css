@@ -23,6 +23,14 @@ a:hover{
   color : rgb(250, 83, 65);
 }
 
+a:visited{
+  color : rgb(250, 83, 65);
+}
+
+.Here{
+    color : rgb(250, 83, 65);
+}
+
 .Search{
   margin-left: 2em;
 }
