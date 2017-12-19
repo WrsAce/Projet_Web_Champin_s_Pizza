@@ -6,7 +6,7 @@ html {
 body {
   margin : 0;
 }
-section{
+nav{
   position: fixed;
 }
 ul{
@@ -52,4 +52,28 @@ a:hover{
   margin-right: 20em;
   left: 15em;
   margin-left: 15em;
+}
+
+h2{
+    margin-left : 2em;
+}
+
+p{
+  margin-left : 1em;
+}
+
+.Qualité{
+  border-style: solid;
+  background-color: tomato;
+  margin-left: 2em;
+  margin-right: 0.5em;
+  margin-bottom: 2em;
+  padding-bottom: 30%;
+  padding-right: 15%;
+  padding
+}
+
+#colonne{
+  display:flex;
+  flex-flow: row wrap;
 }
