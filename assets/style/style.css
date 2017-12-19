@@ -2,13 +2,13 @@ html {
   background-image: url("../images/fond_pizza.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
 }
-
 body {
   margin : 0;
 }
-
+section{
+  position: fixed;
+}
 ul{
   font-size: 2em;
   list-style-type: none;
@@ -28,10 +28,28 @@ a:hover{
   color : rgb(250, 83, 65);
 }
 
+.Here{
+    color : rgb(250, 83, 65);
+}
+
 .Search{
   margin-left: 2em;
 }
 
 .Logo{
   margin-bottom: 2em;
+}
+
+.Titre{
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.Cadre {
+  position: relative;
+  border-style: solid;
+  background: gray;
+  margin-right: 20em;
+  left: 15em;
+  margin-left: 15em;
 }
