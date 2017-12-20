@@ -2,6 +2,7 @@ html {
   background-image: url("../images/fond_pizza.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
 }
 body {
   margin : 0;
@@ -78,7 +79,7 @@ h2{
 
 #Pizza_Carbonara{
   height: 300px;
-  width: 45%;
+  width: 40%;
   margin-left: 2em;
   margin-right: 2em;
   float : left;
@@ -107,5 +108,5 @@ textarea {
 
 .Ajout_Panier{
   display: block;
-  margin-left: 45em;
+  margin-left: 2em;
 }
