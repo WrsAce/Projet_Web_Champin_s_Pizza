@@ -54,30 +54,47 @@ a:hover{
   margin-right: 20em;
   left: 15em;
   margin-left: 15em;
-  padding-left: 15em;
-  padding-right: 15em;
-}
-td {
-  border : 1px solid black;
-  background-color: beige;
+  padding-left: 5em;
   padding-right: 5em;
-  padding-left: 2em;
+  padding-bottom: 2em;
 }
+
 
 #Mon_Panier{
-    border-style: solid;
-    border-color: black;
+    border : 1px solid black;
     background-color: beige;
+    padding-bottom : 2em;
 }
 
-#Chorizo_Pizza{
-height: 50%;
-width: 45%;
-margin-left: 5em;
-margin-top: 2em;
+#Chorizo_Pizza {
+    height: 75%;
+    width: 75%;
+
 }
 
-#Vide {
-  padding-right: 0em;
-  padding-left: 0em;
+section{
+  display: flex;
+  flex-direction: row wrap;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.Tableau > div
+{
+  border : 1px solid black;
+  background-color: beige;
+  padding-right : 5em;
+  padding-left: 4em;
+}
+
+h2{
+  margin-left: 1em;
+}
+
+#Pizza_Carbonara{
+  height: 300px;
+  width: 40%;
+  margin-left: 2em;
+  margin-right: 2em;
+  float : left;
 }
