@@ -3,12 +3,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body {
   margin : 0;
 }
+
 nav{
   position: fixed;
 }
+
 ul{
   font-size: 2em;
   list-style-type: none;
@@ -52,4 +55,16 @@ a:hover{
   margin-right: 20em;
   left: 15em;
   margin-left: 15em;
+}
+
+.Cadre p{
+  margin-left : 2em;
+}
+
+h2{
+  margin-left : 2em;
+}
+
+#offres{
+  border-radius: 20%;
 }
