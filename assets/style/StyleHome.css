@@ -65,6 +65,12 @@ h2{
   margin-left : 2em;
 }
 
-#offres{
-  border-radius: 20%;
+#offre{
+  width: 700px;
+	height: 300px;
+  margin-left: 3em;
+}
+
+#offre_livraison{
+  margin-left: 15em;
 }
