@@ -4,6 +4,7 @@ html {
   background-size: cover;
   position: absolute;
 }
+
 body {
   margin : 0;
 }
@@ -93,7 +94,7 @@ h2{
   float : left;
 }
 
-.Description em {
+em {
   font-size: 1.5em;
   display: inline;
 }
