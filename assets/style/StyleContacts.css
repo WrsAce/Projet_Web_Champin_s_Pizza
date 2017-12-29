@@ -3,15 +3,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body {
   margin : 0;
 }
-
 nav{
   position: fixed;
 }
-
 ul{
   font-size: 2em;
   list-style-type: none;
@@ -43,7 +40,7 @@ a:hover{
   margin-bottom: 2em;
 }
 
-.Titre{
+#Titre{
   text-align: center;
   padding-bottom: 0.5em;
 }
@@ -57,21 +54,11 @@ a:hover{
   margin-left: 15em;
 }
 
-.Cadre p{
-  margin-left : 2em;
+p{
+  margin-left : 1em;
 }
 
-h2{
-  margin-left : 2em;
-}
-
-#offre{
-  width: 700px;
-	height: 300px;
-  margin-left: 3em;
-}
-
-#offre_livraison{
-  margin-left: 15em;
-  border-radius: 10%;
+#Form{
+  margin-left : 5em;
+  margin-bottom: 3em;
 }
