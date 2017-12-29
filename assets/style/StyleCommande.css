@@ -67,9 +67,8 @@ a:hover{
     padding-bottom : 2em;
 }
 
-#Ligne0,#Ligne1,#Ligne2{
+section{
   display: flex;
-  flex-direction: row wrap;
 }
 
 section > div
@@ -102,20 +101,6 @@ h2{
   float: left;
 }
 
-#Ligne0{
-    margin-left: 4em;
-}
-#Ligne1{
-  margin-left: 4em;
-  margin-right: 1em;
-}
-
-#Ligne2{
-  padding-right: 2em;
-  padding-left: 2em;
-  margin-left: 2em;
-
-}
 #Total{
   padding-left: 35em;
   margin-left: 2.75em;
