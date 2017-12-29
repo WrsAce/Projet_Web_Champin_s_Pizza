@@ -24,36 +24,46 @@
 
   <div class="Cadre">
       <h1 class="Titre"> Ma Commande </h1>
-      <div id = "Mon_Panier">
-      <h2> Mon Panier : 4 articles </h2>
-        <section>
-          <h3 id ="Vide"></h3>
-          <div> Nom du produit </div>
-          <div> Prix </div>
-          <div> Qt&eacute; </div>
-          <div> Sous-Total </div>
-        </section>
-        <section>
-          <h3><img id = "Chorizo_Pizza" src="../assets/images/pizza-chorizo.jpg" alt = "Pizza aux chorizos"/></h3>
-          <div> Pizza Chorizo </div>
-          <div> 10.50€ </div>
-          <div> 2 </div>
-          <div> 21€ </div>
-        </section>
-        <section>
-          <h3> <img id = "Pizza_Carbonara" src="../assets/images/pizza_carbonara.jpg" alt = "Pizza Carboanara"/></h3>
-          <div> Pizza Carbonara </div>
-          <div> 12.50€ </div>
-          <div> 2 </div>
-          <div> 25€ </div>
-        </section>
-        <section>
-          <h3 id="Total"> Total : 46€ </h3>
-        </section>
-        <form action="livraison.html">
-        <button> Commander </button>
-        </form>
-      </div>
+      <table id="Mon_Panier">
+        <tr>
+            <td id="Panier"> <h2> Mon Panier : 4 articles </h2> </td>
+            <td class="Rien"></td>
+            <td class="Rien"></td>
+            <td class="Rien"></td>
+            <td class="Rien"></td>
+        </tr>
+        <tr>
+          <th id ="Vide"></th>
+          <th id ="Nom_Produit"> Nom du produit </th>
+          <th> Prix </th>
+          <th> Qt&eacute; </th>
+          <th> Sous-Total </th>
+        </tr>
+        <tr>
+          <td><img id = "Chorizo_Pizza" src="../assets/images/pizza-chorizo.jpg" alt = "Pizza aux chorizos"/></td>
+          <td id = "pizza_chorizo" > Pizza Chorizo </td>
+          <td> 10.50€ </td>
+          <td> 2 </td>
+          <td> 21€ </td>
+        </tr>
+        <tr>
+          <td id="Carbonara"> <img id = "Pizza_Carbonara" src="../assets/images/pizza_carbonara.jpg" alt = "Pizza Carboanara"/></td>
+          <td> Pizza Carbonara </td>
+          <td> 12.50€ </td>
+          <td> 2 </td>
+          <td> 25€ </td>
+        </tr>
+        <tr>
+          <td class="Rien"></td>
+          <td class="Rien"></td>
+          <td class="Rien"></td>
+          <td class="Rien"></td>
+          <td id="Total"> Total : 46€ </td>
+        </tr>
+      </table>
+      <form action="livraison.html">
+      <button id="Commander"> Commander </button>
+      </form>
   </div>
 </body>
 </html>
