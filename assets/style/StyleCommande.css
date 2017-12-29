@@ -61,14 +61,15 @@ a:hover{
 }
 
 #Panier{
-  padding-right: 69em;
+  padding-right: 61em;
+  padding-bottom: 0em;
+  padding-top: 0em;
 }
 
 #Mon_Panier{
     border : 1px solid black;
     background-color: beige;
     padding-bottom: 2em;
-    font-size: 1.5em;
 }
 
 tr{
@@ -89,46 +90,34 @@ h2{
 }
 
 #Chorizo_Pizza {
-  height: 130%;
-  width: 80%;
+  height: 400px;
+  width: 412px;
   float: left;
 }
 
 #Vide{
-  padding-right: 39em;
+  padding-right: 29.75em;
 }
 
 #Pizza_Carbonara{
-  height: 130%;
-  width: 90%;
+  height: 400px;
+  width: 390px;
   float: left;
 }
 
 #Total{
-  padding-left: 50em;
+  padding-left: 46em;
   padding-right: 2em;
   font-size: 1.5em;
 }
 
 
-#Commander{
-  margin-left: 100em;
-  padding-bottom: 2em;
-  padding-right: 1em;
-  padding-left: 1em;
-}
-
 #pizza_chorizo{
-  padding-left: 5.5em;
+  padding-right: 5.5em;
 }
 
 #Carbonara{
- padding-right: 9em;
-}
-
-#Nom_Produit{
-  padding-right: 2em;
-  padding-left: 5em;
+  padding-right: 6em;
 }
 
 .Rien{
