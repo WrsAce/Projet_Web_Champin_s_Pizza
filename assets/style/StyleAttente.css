@@ -8,11 +8,6 @@ body {
   margin : 0;
 }
 
-.Titre{
-  text-align: center;
-  padding-bottom: 0.5em;
-}
-
 .Cadre {
   margin-top: 2.5em;
   position: relative;
@@ -22,28 +17,16 @@ body {
   left: 15em;
   margin-left: 5em;
   margin-right: 30em;
-  border-radius: 5em;
 }
 
-#Titre{
-  text-align: center;
-  padding-bottom: 0.5em;
+h4, p{
+  margin-left: 1em;
 }
 
-p{
-  margin-left : 1em;
-}
-
-h4{
-  margin-left : 1em;
-}
-
-table{
-  margin-left: 3em;
-}
-
-#boutton{
-  margin-top: 1em;
-  margin-left: 30em;
-  margin-bottom: 3em;
+#attente{
+  height: 140px;
+  width: 20%;
+  margin-left: 18em;
+  border-radius: 20%;
+  margin-bottom: 1em;
 }
